@@ -1,0 +1,36 @@
+{
+    "name": "swgoh-stat-calc-helper",
+    "version": "0.0.1",
+    "description": "SWGoH helper the SWGOH stat calc package from Crinolo",
+    "main": "index.js",
+    "keywords": [
+      "api",
+      "helper",
+      "stat-calc",
+      "swgoh"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/AllMightySauron/swgoh-stat-calc-helper"
+    },
+    "contributors": [
+      {
+        "name": "João Simões",
+        "github": "https://github.com/AllMightySauron"
+      }
+    ],
+    "author": "João Simões <joao.santos.simoes@gmail.com> (https://github.com/AllMightySauron)",
+    "license": "MIT",
+    "scripts": {
+      "qa": "nyc mocha --timeout 0",
+      "test": "mocha --timeout 0"
+    },
+    "dependencies": {
+    },
+    "devDependencies": {
+      "jshint": "^2.13.1",
+      "mocha": "^10.0.0",
+      "nyc": "^15.1.0"
+    }
+  }
+  
